@@ -18,3 +18,8 @@ $BINDIR/chezmoi init $GITHUB_USERNAME
 
 echo "[APPLY] apply dotfiles"
 $BINDIR/chezmoi apply
+
+echo "[SETUP] TheFuck"
+sudo apt update -y
+sudo apt install python3-dev python3-pip python3-setuptools -y
+pip3 install thefuck --user
