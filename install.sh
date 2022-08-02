@@ -25,7 +25,7 @@ sudo apt install python3-dev python3-pip python3-setuptools -y
 pip3 install thefuck --user
 
 echo "[SETUP] Vim"
-sudo apt-get install vim
+sudo apt-get install vim -y
 
 echo "[SETUP] ZSH Autosuggestions"
 git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
