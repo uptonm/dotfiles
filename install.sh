@@ -26,9 +26,3 @@ pip3 install thefuck --user
 
 echo "[SETUP] Vim"
 sudo apt-get install vim -y
-
-echo "[SETUP] ZSH Autosuggestions"
-git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
-
-echo "[SETUP] ZSH Syntax Highlighting"
-git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
