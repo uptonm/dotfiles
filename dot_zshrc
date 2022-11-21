@@ -129,10 +129,6 @@ fi
 #   source <(diesel completions zsh)
 # fi
 
-if command -v chezmoi &>/dev/null; then
-  source <(chezmoi completion zsh)
-fi
-
 # Init node version manager if exists
 if [[ -e /usr/share/nvm/init-nvm.sh ]]; then 
   source '/usr/share/nvm/init-nvm.sh'
