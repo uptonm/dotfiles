@@ -19,3 +19,13 @@ pip3 install thefuck --user
 
 echo "[SETUP] Vim"
 sudo apt-get install vim -y
+
+echo "[INSTALL] Chezmoi"
+export BINDIR=$HOME/.local/bin
+sh -c "$(curl -fsLS chezmoi.io/get)"
+
+echo "[SETUP] Chezmoi"
+$BINDIR/chezmoi init $GITHUB_USERNAME
+
+echo "[APPLY] apply dotfiles"
+$BINDIR/chezmoi apply
