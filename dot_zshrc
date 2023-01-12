@@ -176,8 +176,3 @@ alias bzt="bazel test"
 
 eval $(thefuck --alias fuck)
 alias f="fuck"
-
-alias cokevin="echo 'Co-authored-by: Kevin Boyd <kevinboyd@fb.com>'"
-alias codevkev="echo 'Co-authored-by: Kevin Humphreys <devkev@fb.com>'"
-alias cojosh="echo 'Co-authored-by: Josh Sullivan <joshuasullivan@fb.com>'"
-alias coperk="echo 'Co-authored-by: Carlton Perkins <carltonperkins@fb.com>'"
