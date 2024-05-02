@@ -27,5 +27,8 @@ sh -c "$(curl -fsLS chezmoi.io/get)"
 echo "[SETUP] Chezmoi"
 $BINDIR/chezmoi init $GITHUB_USERNAME
 
-echo "[APPLY] apply dotfiles"
+echo "[APPLY] dotfiles"
 $BINDIR/chezmoi apply
+
+echo "[APPLY] VSCode Extensions"
+cat ./.vscode/extensions.txt | xargs -L 1 code --install-extension
