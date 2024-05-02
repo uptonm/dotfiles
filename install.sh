@@ -30,11 +30,11 @@ $BINDIR/chezmoi init $GITHUB_USERNAME
 echo "[APPLY] dotfiles"
 $BINDIR/chezmoi apply
 
-declare -a codeExtensions=("1yib.rust-bundle" "arcanis.vscode-zipfs" "cardinal90.multi-cursor-case-preserve" "dbaeumer.vscode-eslint" "dotjoshjohnson.xml" "dustypomerleau.rust-syntax" "eamodio.gitlens" "esbenp.prettier-vscode" "foxundermoon.shell-format" "github.copilot" "github.copilot-chat" "graphql.vscode-graphql" "graphql.vscode-graphql-syntax" "leuisken.latency" "meezilla.json" "ms-azuretools.vscode-docker" "mutantdino.resourcemonitor" "mxsdev.typescript-explorer" "naumovs.color-highlight" "redhat.vscode-xml" "rust-lang.rust-analyzer" "searking.preview-vscode" "serayuzgur.crates" "sibiraj-s.vscode-scss-formatter" "tamasfe.even-better-toml")
+# declare -a codeExtensions=("1yib.rust-bundle" "arcanis.vscode-zipfs" "cardinal90.multi-cursor-case-preserve" "dbaeumer.vscode-eslint" "dotjoshjohnson.xml" "dustypomerleau.rust-syntax" "eamodio.gitlens" "esbenp.prettier-vscode" "foxundermoon.shell-format" "github.copilot" "github.copilot-chat" "graphql.vscode-graphql" "graphql.vscode-graphql-syntax" "leuisken.latency" "meezilla.json" "ms-azuretools.vscode-docker" "mutantdino.resourcemonitor" "mxsdev.typescript-explorer" "naumovs.color-highlight" "redhat.vscode-xml" "rust-lang.rust-analyzer" "searking.preview-vscode" "serayuzgur.crates" "sibiraj-s.vscode-scss-formatter" "tamasfe.even-better-toml")
 
-echo "[APPLY] VSCode Extensions"
-for extension in "${codeExtensions[@]}"
-do
-    echo "Installing $extension" 
-    code --install-extension $extension
-done
+# echo "[APPLY] VSCode Extensions"
+# for extension in "${codeExtensions[@]}"
+# do
+#     echo "Installing $extension" 
+#     code --install-extension $extension
+# done
